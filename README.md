@@ -44,7 +44,7 @@ Historic Data Export to move logs from Azure Log Analytics Workspace to Azure Da
 
 9. By Executing this script(Create-Historic-Table-Raw-Mappings-DataExport.ps1) - it creats additional data source to the existing ADX Table  
 
-![TableDesign](./images/TableDesign.png)
+![TableDesign](./images/TableDesign.PNG)
 
 ## **Part #2 - Migrate-Historic-Logs-ADX.ps1 – Execution depends on size of the Workspace**
 1. This script will accept Start Date and End Date  
