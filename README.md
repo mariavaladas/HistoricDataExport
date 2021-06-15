@@ -55,3 +55,17 @@ Historic Data Export to move logs from Azure Log Analytics Workspace to Azure Da
 2. Script will recursively query the Log Analytics within the time range and the results will be pushed to EventHub Topic  
 
 As soon as the data is available in “EventHubTopic” – it gets ingested to ADX Main table  
+
+## Download the Tool Running PowerShell Script  
+
+1. Download the Tool 
+
+   <a id="historic" href="https://github.com/andedevsecops/HistoricDataExport/archive/refs/heads/main.zip">Download Tool</a>  
+ 
+2. Extract the folder and open script files either in Visual Studio Code or PowerShell  
+
+   **Note**  
+   Currently this script will work from the client's machine, To continue executing this script, run the following command  
+   ```
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass  
+   ```   
