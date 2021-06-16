@@ -420,7 +420,7 @@ Function CreateADXDataConnection(){
                             "properties": {
                               "eventHubResourceId": "$eventHubResourceId",                              
                               "consumerGroup": "$('$Default')",
-                              "dataFormat":"MULTIJSON",
+                              "dataFormat":"MULTILINE JSON",
                               "tableName":"$adxTableRaw",
                               "mappingRuleName":"$adxTableRawMapping",
                               "compression":"None"
